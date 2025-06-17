@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Local Service - Portfolio Demo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 40px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #222;
+      color: #fff;
+    }
+
+    .contact-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .contact-btn:hover {
+      background-color: #0056b3;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Local Service</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="home">
+      <h2>Welcome to Our Service</h2>
+      <p>We provide high-quality local services for your home or business. Professional, reliable, and affordable – trusted by the community.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We are a small team of experts with years of experience in the service industry. Our mission is to solve your problems quickly and efficiently, with customer satisfaction as our top priority.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: contact@localservice.com</p>
+      <p>Phone: +387 61 123 456</p>
+      <button class="contact-btn" onclick="showMessage()">Send Message</button>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Local Service. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function showMessage() {
+      alert("Thank you for contacting us!");
+    }
+  </script>
+
+</body>
+</html>
